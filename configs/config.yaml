@@ -1,0 +1,57 @@
+schema_generation:
+    datapath: "BIRD/bird_dataset"   # without .json
+    num_of_entries: 192 #of the dataset
+    model_name: "llama" #["llama","openai","deepseek"]
+    prompt_type: "cot" #["direct", "cot"]
+    method: "text" #["triplet", "text"]
+    # Paths
+    base_data_path: "/add_path/dataset"
+    logs_dir: "/add_path/logs/schema_results/"
+    results_dir: "/add_path/results/schema_generation/"
+    base_data_path: "/add_path/dataset"
+    logs_dir: "/add_path/logs/schema_results/"
+    results_dir: "/add_path/results/schema_generation/"
+
+value_identification:
+    datapath: "SyntheticText/merged_dataset2/text_cot_<<model_name>>"   # without .json
+    num_of_entries: 192 #of the dataset containing schema
+    model_name: "llama" #["llama","openai","deepseek"]
+    method: "symbolic" #["symbolic", "llm"]
+    # Paths
+    base_data_path: "/add_path/results/schema_generation"
+    logs_dir: "/add_path/logs/value_identification_results/"
+    results_dir: "/add_path/results/value_identification/"
+    schema_path: "/add_path/schema/SyntheticText/merged_dataset2/schema.json" # path to the schema file
+
+
+value_population:
+    datapath: "SyntheticText/merged_dataset2/text_cot_<<model_name>>"   # without .json
+    num_of_entries: 192 #of the dataset containing schema and identified values
+    model_name: "llama" #["llama","openai","deepseek"]
+    method: "TS" #["TS","TST","TST-L"]
+    # Paths
+    base_data_path: "/add_path/results/value_identification/"
+    logs_dir: "/add_path/logs/value_population_results/"
+    results_dir: "/add_path/results/value_population/"
+    symbolic_path: "/add_path/symbolic/SyntheticText/merged_dataset2/result.json"
+
+database_generation:
+    datapath: "SyntheticText/merged_dataset2/text_cot_<<model_name>>"   # without .json
+    num_of_entries: 192
+    model_name: "llama" #["llama","openai","deepseek"]
+    method: "TS" #["TS","TST", "TST-L"]
+    base_data_path: "/add_path/results/value_population/"
+    logs_dir: "/add_path/logs/database_evaluation_results/"
+    results_dir: "/add_path/results/database_generation/"
+    base_data_path: "/add_path/results/value_population/"
+
+
+baseline:
+    datapath: "SyntheticText/merged_dataset2"   # without .json
+    num_of_entries: 192 #of the dataset
+    method: None
+    model_name: "llama" #["llama","openai","deepseek"]
+    base_data_path: "/add_path/dataset"
+    logs_dir: "/add_path/logs/baseline_results/"
+    results_dir: "/add_path/results/database_generation/baseline/"
+    base_data_path: "/add_path/dataset"

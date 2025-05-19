@@ -248,19 +248,19 @@ class ValueIdentificationPipeline:
                 self.logger.info(f"*******\nExtracted OpenIE triplets:\n{formatted_triplets}*******")
                 # logging end
 
-                # missing_items = self.get_missing_nouns_in_triplets(sentence)
-                # self.logger.info(f"Missing items from triplets: {missing_items}")
+                missing_items = self.get_missing_nouns_in_triplets(sentence)
+                self.logger.info(f"Missing items from triplets: {missing_items}")
 
-                # if missing_items:
-                #     additional_triplets = self.get_additional_triplets(sentence_text, associations["triplets"], missing_items)
-                #     # logging begin
-                #     formatted_additional = "\n".join(
-                #         [f"{{{t['subject']}, {t['relation']}, {t['object']}}}" for t in additional_triplets]
-                #     )
-                #     self.logger.info(f"*******\nLLM-generated additional triplets:\n{formatted_additional}\n*******")
-                #     # logging end
-                #     if additional_triplets:
-                #         associations["triplets"].extend(additional_triplets)
+                if missing_items:
+                    additional_triplets = self.get_additional_triplets(sentence_text, associations["triplets"], missing_items)
+                    # logging begin
+                    formatted_additional = "\n".join(
+                        [f"{{{t['subject']}, {t['relation']}, {t['object']}}}" for t in additional_triplets]
+                    )
+                    self.logger.info(f"*******\nLLM-generated additional triplets:\n{formatted_additional}\n*******")
+                    # logging end
+                    if additional_triplets:
+                        associations["triplets"].extend(additional_triplets)
                 
                 sentence_idx += 1
 
@@ -422,16 +422,16 @@ class ValueIdentificationPipeline:
             # logging begin
             self.logger.info(f"*******\nExtracted LLM triplets:\n{associations['triplets']}*******")
             # logging end
-            # values = [item['value'] for item in associations["triplets"]]
-            # missing_items = self.get_missing_nouns_in_triplets_llm(paragraph,values)
-            # self.logger.info(f"Missing items from triplets: {missing_items}")
-            # if missing_items:
-            #     additional_triplets = self.get_additional_triplets_llm(paragraph, associations["triplets"], missing_items, schema)
-            #     # logging begin
-            #     self.logger.info(f"*******\nLLM-generated additional triplets:\n{additional_triplets}\n*******")
-            #     # logging end
-            #     if additional_triplets:
-            #         associations["triplets"].extend(additional_triplets)
+            values = [item['value'] for item in associations["triplets"]]
+            missing_items = self.get_missing_nouns_in_triplets_llm(paragraph,values)
+            self.logger.info(f"Missing items from triplets: {missing_items}")
+            if missing_items:
+                additional_triplets = self.get_additional_triplets_llm(paragraph, associations["triplets"], missing_items, schema)
+                # logging begin
+                self.logger.info(f"*******\nLLM-generated additional triplets:\n{additional_triplets}\n*******")
+                # logging end
+                if additional_triplets:
+                    associations["triplets"].extend(additional_triplets)
             
 
         return associations_list

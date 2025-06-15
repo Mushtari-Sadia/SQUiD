@@ -7,10 +7,8 @@ Look in configs/config.yaml
 
 ## Experiment run
 
-- chmod +x run.sh
-- chmod +x run2.sh
+- chmod +x scripts/run.sh
 - ./run.sh
-- ./run2.sh
 
 ## Results
 

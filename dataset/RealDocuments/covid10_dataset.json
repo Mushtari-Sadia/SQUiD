@@ -1,0 +1,820 @@
+[
+  {
+    "text": "The etiologic basis for the vast majority of cases of congenital heart disease remains largely undefined. Viruses have been considered to be likely candidates since the recognition of the association between intrauterine rubella and congenital heart disease. Although the pathogenesis of cardiovascular defects is poorly understood, information gained from the study of congenital rubella syndrome suggests that mechanisms such as focal endothelial cell damage, resulting in obliteration of vascular supply, decreased growth rate, and shortened survival time of certain cells, and disturbed DNA replication in cells whose chromosomes were damaged secondary to the effects of virus replication may be operative in the production of defects in the developing fetus. In addition to rubella there is suggestive, but not conclusive, evidence that Coxsackie B3 and B4 virus infections during pregnancy can result in the birth of infants with a variety of types of congenital heart lesions and that intrauterine mumps virus infection may be etiologically related to the postnatal development of endocardial fibroelastosis (EFE). Although there are a number of other viruses that are potential etiologic agents of congenital heart disease, the current status of information is inadequate to allow even suggestive associations to be made. The most profitable areas for future investigation appear to be: (1) the epidemiology of congenital heart disease, (2) prospective studies of the association of maternal viral infection with abnormal offspring, (3) the in-depth virologic investigation of the infant with a cardiac defect, and (4) the development of experimental animal models of congenital heart disease. Successful control of virus-induced congenital heart disease will depend on the results of these investigations and the development of vaccines against the identified causative viruses and/or safe and effective antiviral chemotherapy for the woman in early gestation who is infected with a known teratogenic agent.",
+    "ground_truth_entities": [
+      "disease",
+      "pathogen",
+      "virus",
+      "bacteria",
+      "organ/system",
+      "immune_response",
+      "symptom",
+      "drug_or_treatment",
+      "chemical_substance",
+      "methodology",
+      "host_factor",
+      "population",
+      "etiology",
+      "location",
+      "agent"
+    ],
+    "ground_truth_key_value": {
+      "disease": [
+        [
+          "1",
+          "congenital heart disease"
+        ]
+      ],
+      "pathogen": [
+        [
+          "1",
+          "Coxsackie B3"
+        ],
+        [
+          "2",
+          "rubella"
+        ],
+        [
+          "3",
+          "mumps"
+        ]
+      ],
+      "virus": [
+        [
+          "1",
+          "Coxsackie B3"
+        ],
+        [
+          "2",
+          "rubella"
+        ],
+        [
+          "3",
+          "mumps"
+        ]
+      ],
+      "bacteria": [],
+      "organ/system": [
+        [
+          "1",
+          "heart"
+        ]
+      ],
+      "immune_response": [],
+      "symptom": [],
+      "drug_or_treatment": [
+        [
+          "1",
+          "chemotherapy"
+        ]
+      ],
+      "chemical_substance": [],
+      "methodology": [],
+      "host_factor": [],
+      "population": [
+        [
+          "1",
+          "infants"
+        ]
+      ],
+      "etiology": [
+        [
+          "1",
+          "virus replication"
+        ]
+      ],
+      "location": [],
+      "agent": []
+    },
+    "domain": "biomedical",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Middle-aged female identical twins, one of whom had systemic lupus erythematosus (SLE), were evaluated for immunologic reactivity to previous antigenic challenges, including primary immunization with a foreign antigen, keyhole limpet hemocyanin (KLH). These two women had lived together for all of their 58 years and neither was receiving anti-inflammatory or immunosuppressive drugs at the time of these studies. Both twins demonstrated comparable 7S and 198 humoral antibody response to KLH, as well as similar viral antibody titers. However, the twin with SLE was anergic to common antigens, streptokinase-streptodornase, Trichophyton and Candida; furthermore delayed hypersensitivity to KLH did not develop after immunization. This observed discrepancy between humoral and cellular immunity in genetically similar subjects may be significant in the pathogenesis of SLE.",
+    "ground_truth_entities": [
+      "disease",
+      "pathogen",
+      "virus",
+      "bacteria",
+      "organ/system",
+      "immune_response",
+      "symptom",
+      "drug_or_treatment",
+      "chemical_substance",
+      "methodology",
+      "host_factor",
+      "population",
+      "etiology",
+      "location",
+      "agent"
+    ],
+    "ground_truth_key_value": {
+      "disease": [
+        [
+          "1",
+          "systemic lupus erythematosus"
+        ],
+        [
+          "2",
+          "SLE"
+        ]
+      ],
+      "pathogen": [],
+      "virus": [],
+      "bacteria": [],
+      "organ/system": [],
+      "immune_response": [
+        [
+          "1",
+          "humoral antibody response"
+        ],
+        [
+          "2",
+          "anergic"
+        ],
+        [
+          "3",
+          "delayed hypersensitivity"
+        ],
+        [
+          "4",
+          "cellular immunity"
+        ]
+      ],
+      "symptom": [],
+      "drug_or_treatment": [],
+      "chemical_substance": [],
+      "methodology": [],
+      "host_factor": [],
+      "population": [
+        [
+          "1",
+          "twins"
+        ]
+      ],
+      "etiology": [],
+      "location": [],
+      "agent": [
+        [
+          "1",
+          "keyhole limpet hemocyanin"
+        ],
+        [
+          "2",
+          "antigen"
+        ]
+      ]
+    },
+    "domain": "biomedical",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Upper respiratory tract infections are the most common types of infectious diseases among adults. It is estimated that each adult in the United States experiences two to four respiratory infections annually. The morbidity of these infections is measured by an estimated 75 million physician visits per year, almost 150 million days lost from work, and more than $10 billion In costs for medical care. Serotypes of the rhinoviruses account for 20 to 30 percent of episodes of the common cold. However, the specific causes of most upper respiratory infections are undefined. Pneumonia remains an important cause of morbidity and mortality for nonhospitalized adults despite the widespread use of effective antimicrobial agents. There are no accurate figures on the number of episodes of pneumonia that occur each year in ambulatory patients. In younger adults, the atypical pneumonia syndrome Is the most common clinical presentation; Mycoplasma pneumoniae is the most frequently Identified causative agent. Other less common agents include Legionelia pneumophila, influenza viruses, adenoviruses, and Chiamydia. More than half a million adults are hospitalized each year with pneumonia. Persons older than 65 years of age have the highest rate of pneumonia admissions, 11.5 per 1,000 population. Pneumonia ranks as the sixth leading cause of death in the United States. The pathogens responsible for community-acquired pneumonlas are changing. Forty years ago, Streptococcus pneumoniae accounted for the majority of infections. Today, a broad array of community-acquired pathogens have been implicated as etiologic agents Including Leglonella species, gram-negative bacilli, Hemophilus influenzae, Staphylococcus aureus and nonbacterial pathogens. Given the diversity of pathogenic agents, it has become imperative for clinicians to establish a specific etiologic diagnosis before initiating therapy or to consider the diagnostic possibilities and treat with antimicrobial agents that are effective against the most likely pathogens.",
+    "ground_truth_entities": [
+      "disease",
+      "pathogen",
+      "virus",
+      "bacteria",
+      "organ/system",
+      "immune_response",
+      "symptom",
+      "drug_or_treatment",
+      "chemical_substance",
+      "methodology",
+      "host_factor",
+      "population",
+      "etiology",
+      "location",
+      "agent"
+    ],
+    "ground_truth_key_value": {
+      "disease": [
+        [
+          "1",
+          "pneumonia"
+        ],
+        [
+          "2",
+          "Pneumonia"
+        ],
+        [
+          "3",
+          "common cold"
+        ]
+      ],
+      "pathogen": [
+        [
+          "1",
+          "influenza"
+        ],
+        [
+          "2",
+          "adenoviruses"
+        ],
+        [
+          "1",
+          "Mycoplasma pneumoniae"
+        ],
+        [
+          "2",
+          "Streptococcus pneumoniae"
+        ],
+        [
+          "3",
+          "Staphylococcus aureus"
+        ]
+      ],
+      "virus": [
+        [
+          "1",
+          "influenza"
+        ],
+        [
+          "2",
+          "adenoviruses"
+        ]
+      ],
+      "bacteria": [
+        [
+          "1",
+          "Mycoplasma pneumoniae"
+        ],
+        [
+          "2",
+          "Streptococcus pneumoniae"
+        ],
+        [
+          "3",
+          "Staphylococcus aureus"
+        ]
+      ],
+      "organ/system": [
+        [
+          "1",
+          "respiratory tract"
+        ]
+      ],
+      "immune_response": [],
+      "symptom": [],
+      "drug_or_treatment": [
+        [
+          "1",
+          "antimicrobial agents"
+        ]
+      ],
+      "chemical_substance": [],
+      "methodology": [],
+      "host_factor": [],
+      "population": [
+        [
+          "1",
+          "adults"
+        ],
+        [
+          "2",
+          "patients"
+        ]
+      ],
+      "etiology": [],
+      "location": [
+        [
+          "1",
+          "United States"
+        ]
+      ],
+      "agent": []
+    },
+    "domain": "biomedical",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Our understanding of the pathogenesis of infectious, especially bacterial, diarrhea has increased dramatically. New etiologic agents, mechanisms, and diseases have become known. For example, Escherichia coli serogroup 0157 is now known to cause acute hemorrhagic colitis. Also, E. coli serogroups that produce Shiga toxin are recognized as etiologic agents in the hemolytic-uremic syndrome. The production of bacterial diarrhea has two major facets, bacterial-mucosal interaction and the induction of intestinal fluid loss by enterotoxins. Bacterial-mucosal interaction can be described in stages: (1) adherence to epithelial cell microvilli, which is often promoted by or associated with pill; (2) close adherence (enteroadherence), usually by classic enteropathogenic E. coli, to mucosal epithelial cells lacking microvilli; and (3) mucosal invasion, as with Shigella and Salmonella infections. Further large strides in understanding infectious diarrhea are likely with the cloning of virulence genes if additional host-specific animal pathogens become available for study.",
+    "ground_truth_entities": [
+      "disease",
+      "pathogen",
+      "virus",
+      "bacteria",
+      "organ/system",
+      "immune_response",
+      "symptom",
+      "drug_or_treatment",
+      "chemical_substance",
+      "methodology",
+      "host_factor",
+      "population",
+      "etiology",
+      "location",
+      "agent"
+    ],
+    "ground_truth_key_value": {
+      "disease": [
+        [
+          "1",
+          "hemolytic-uremic syndrome"
+        ],
+        [
+          "2",
+          "hemorrhagic colitis"
+        ],
+        [
+          "3",
+          "infectious diarrhea"
+        ]
+      ],
+      "pathogen": [
+        [
+          "1",
+          "Shiga toxin"
+        ],
+        [
+          "1",
+          "Salmonella"
+        ],
+        [
+          "2",
+          "E. coli"
+        ],
+        [
+          "3",
+          "Shigella"
+        ]
+      ],
+      "virus": [
+        [
+          "1",
+          "Shiga toxin"
+        ]
+      ],
+      "bacteria": [
+        [
+          "1",
+          "Salmonella"
+        ],
+        [
+          "2",
+          "E. coli"
+        ],
+        [
+          "3",
+          "Shigella"
+        ]
+      ],
+      "organ/system": [
+        [
+          "1",
+          "intestinal"
+        ]
+      ],
+      "immune_response": [],
+      "symptom": [],
+      "drug_or_treatment": [],
+      "chemical_substance": [],
+      "methodology": [],
+      "host_factor": [],
+      "population": [],
+      "etiology": [
+        [
+          "1",
+          "bacterial-mucosal interaction"
+        ],
+        [
+          "2",
+          "Bacterial-mucosal interaction"
+        ]
+      ],
+      "location": [],
+      "agent": [
+        [
+          "1",
+          "Shiga toxin"
+        ]
+      ]
+    },
+    "domain": "biomedical",
+    "difficulty": "hard"
+  },
+  {
+    "text": "In the pathogenesis of rheumatoid arthritis, locally produced antibodies complex with an inciting antigen, yet to be identified, within the joint and activate the complement system, resulting in articular inflammation mediated primarily by polymorphonuclear leukocytes and their products. Chronic inflammatory cells then produce soluble factors that induce both tissue destruction and inflammation. A major issue is how and why apparently normal immune responses in the acute stage progress to chronic inflammation in subsequent months to years. Although it is often assumed that the initial etiologic agent, persisting in the joint or at an extra-articular site, is responsible for continued synovitis, this need not be the case. It is possible that once the inciting agent is cleared from the joint through a normal immune response, the presence of activated cells rich in surface class II histocompatibility (Ia) antigens could, under the influence of multiple genetic or environmental factors, become the target of autoimmune attack. Alternatively, the process might result from the interactions of synovial lining cells and their products with T cells assuming a secondary role. Further research into the relative contributions of soluble products, T helper and suppressor subsets, synoviocytes, and antigen determine which model is correct.",
+    "ground_truth_entities": [
+      "disease",
+      "pathogen",
+      "virus",
+      "bacteria",
+      "organ/system",
+      "immune_response",
+      "symptom",
+      "drug_or_treatment",
+      "chemical_substance",
+      "methodology",
+      "host_factor",
+      "population",
+      "etiology",
+      "location",
+      "agent"
+    ],
+    "ground_truth_key_value": {
+      "disease": [
+        [
+          "1",
+          "rheumatoid arthritis"
+        ]
+      ],
+      "pathogen": [],
+      "virus": [],
+      "bacteria": [],
+      "organ/system": [
+        [
+          "1",
+          "joint"
+        ]
+      ],
+      "immune_response": [
+        [
+          "1",
+          "autoimmune attack"
+        ]
+      ],
+      "symptom": [],
+      "drug_or_treatment": [],
+      "chemical_substance": [],
+      "methodology": [],
+      "host_factor": [
+        [
+          "1",
+          "polymorphonuclear leukocytes"
+        ],
+        [
+          "2",
+          "synoviocytes"
+        ]
+      ],
+      "population": [],
+      "etiology": [
+        [
+          "1",
+          "immune response"
+        ]
+      ],
+      "location": [],
+      "agent": [
+        [
+          "1",
+          "antigen"
+        ]
+      ]
+    },
+    "domain": "biomedical",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Pharyngitis, bronchitis, and pneumonia represent the most common respiratory tract infections. With a view to establishing effective management strategies, the origins of these illnesses and the diagnostic techniques that have been developed to discover them are reviewed. Therapeutic regimens with documented efficacy are outlined with emphasis on specific rather than empiric treatment. Although many respiratory tract pathogens remain exquisitely sensitive to penicillin, the emergence of resistant strains underscores the need for safe and effective alternative therapies.",
+    "ground_truth_entities": [
+      "disease",
+      "pathogen",
+      "virus",
+      "bacteria",
+      "organ/system",
+      "immune_response",
+      "symptom",
+      "drug_or_treatment",
+      "chemical_substance",
+      "methodology",
+      "host_factor",
+      "population",
+      "etiology",
+      "location",
+      "agent"
+    ],
+    "ground_truth_key_value": {
+      "disease": [
+        [
+          "1",
+          "pneumonia"
+        ],
+        [
+          "2",
+          "Pharyngitis"
+        ],
+        [
+          "3",
+          "bronchitis"
+        ]
+      ],
+      "pathogen": [],
+      "virus": [],
+      "bacteria": [],
+      "organ/system": [
+        [
+          "1",
+          "respiratory tract"
+        ]
+      ],
+      "immune_response": [],
+      "symptom": [],
+      "drug_or_treatment": [],
+      "chemical_substance": [],
+      "methodology": [],
+      "host_factor": [],
+      "population": [],
+      "etiology": [],
+      "location": [],
+      "agent": []
+    },
+    "domain": "biomedical",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Acute bronchitis, an illness frequently encountered by primary-care physicians, is an inflammation of the tracheobronchial tree that results from a respiratory tract infection. It is characterized by persistent cough and sputum production and is occasionally accompanied by fever and/or chest pain. Acute bronchitis may have a viral or bacterial origin and is often treated with antibiotics. Four clinical trials were conducted to compare high and low doses of loracarbef, a new oral \u03b2-lactam antibiotic, with three agents commonly used to treat acute bronchitis: amoxicillin/clavulanate, cefaclor, and amoxicillin. Results of these studies indicated that loracarbef, 400 and 200 mg twice daily, had clinical and bacteriologic efficacy against the common respiratory pathogens Streptococcus pneumoniae, Haemophilus influenzae, and Moraxella (Branhamella) catarrhalis that was comparable with that of the comparative agents. Loracabef was as well tolerated as cefaclor and amoxicillin; moreover, it produced a significantly lower incidence of diarrhea than did amoxicillin/clavulanate. Loracarbef may be considered a safe and effective alternative agent for the treatment of patients with acute bronchitis.",
+    "ground_truth_entities": [
+      "disease",
+      "pathogen",
+      "virus",
+      "bacteria",
+      "organ/system",
+      "immune_response",
+      "symptom",
+      "drug_or_treatment",
+      "chemical_substance",
+      "methodology",
+      "host_factor",
+      "population",
+      "etiology",
+      "location",
+      "agent"
+    ],
+    "ground_truth_key_value": {
+      "disease": [
+        [
+          "1",
+          "Acute bronchitis"
+        ],
+        [
+          "2",
+          "acute bronchitis"
+        ]
+      ],
+      "pathogen": [
+        [
+          "1",
+          "Haemophilus influenzae"
+        ],
+        [
+          "2",
+          "Streptococcus pneumoniae"
+        ]
+      ],
+      "virus": [],
+      "bacteria": [
+        [
+          "1",
+          "Haemophilus influenzae"
+        ],
+        [
+          "2",
+          "Streptococcus pneumoniae"
+        ]
+      ],
+      "organ/system": [
+        [
+          "1",
+          "tracheobronchial tree"
+        ],
+        [
+          "2",
+          "respiratory tract"
+        ]
+      ],
+      "immune_response": [],
+      "symptom": [
+        [
+          "1",
+          "fever"
+        ],
+        [
+          "2",
+          "sputum production"
+        ],
+        [
+          "3",
+          "cough"
+        ],
+        [
+          "4",
+          "chest pain"
+        ]
+      ],
+      "drug_or_treatment": [
+        [
+          "1",
+          "loracarbef"
+        ],
+        [
+          "2",
+          "amoxicillin"
+        ],
+        [
+          "3",
+          "antibiotic"
+        ],
+        [
+          "4",
+          "cefaclor"
+        ],
+        [
+          "5",
+          "Loracarbef"
+        ]
+      ],
+      "chemical_substance": [],
+      "methodology": [],
+      "host_factor": [],
+      "population": [
+        [
+          "1",
+          "patients"
+        ]
+      ],
+      "etiology": [],
+      "location": [],
+      "agent": []
+    },
+    "domain": "biomedical",
+    "difficulty": "hard"
+  },
+  {
+    "text": "An assay for the microsomal hydroxylation of lauric acid (LA), based on HPLC with flow-through radiochemical detection, has been developed. Conditions were optimized for resolution and quantitation of three microsomal metabolites of LA, one of which has not been reported previously as a metabolite of LA in mammalian microsomal incubations. These products, 12-(\u03c9)-hydroxy-LA, 11-(\u03c9-1)-hydroxy-LA, and a novel metabolite, 10-(\u03c9-2)-hydroxy-LA, were isolated by HPLC and identified by gas chromatography/mass spectrometry. In the presence of NADPH, the formation of all three metabolites was linear with time and microsomal protein concentration. Hydrogen peroxide also supported the microsomal metabolism of LA, although the ratio of metabolites was substantially different than that produced by NADPH-supported microsomes. Several biochemical probes (metyrapone, \u03b1-naphthoflavone, 2-diethylaminoethyl-2,2-diphenylvalerate hydrochloride, and 10-undecynoic acid) were used to dissociate the three LA hydroxylase activities. These experiments suggest that the site-specific hydroxylation [\u03c9-, (\u03c9-1)-, (\u03c9-2)-] of LA may be catalyzed by different isozymes of cytochrome P-450.",
+    "ground_truth_entities": [
+      "disease",
+      "pathogen",
+      "virus",
+      "bacteria",
+      "organ/system",
+      "immune_response",
+      "symptom",
+      "drug_or_treatment",
+      "chemical_substance",
+      "methodology",
+      "host_factor",
+      "population",
+      "etiology",
+      "location",
+      "agent"
+    ],
+    "ground_truth_key_value": {
+      "disease": [],
+      "pathogen": [],
+      "virus": [],
+      "bacteria": [],
+      "organ/system": [],
+      "immune_response": [],
+      "symptom": [],
+      "drug_or_treatment": [],
+      "chemical_substance": [
+        [
+          "1",
+          "10-undecynoic acid"
+        ],
+        [
+          "2",
+          "NADPH"
+        ],
+        [
+          "3",
+          "Hydrogen peroxide"
+        ],
+        [
+          "4",
+          "metyrapone"
+        ]
+      ],
+      "methodology": [
+        [
+          "1",
+          "radiochemical detection"
+        ],
+        [
+          "2",
+          "HPLC"
+        ],
+        [
+          "3",
+          "gas chromatography/mass spectrometry"
+        ]
+      ],
+      "host_factor": [],
+      "population": [],
+      "etiology": [],
+      "location": [],
+      "agent": []
+    },
+    "domain": "biomedical",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Phospholipid vesicles containing bovine heart mitochondrial cytochrome c oxidase (COV) were characterized for electron transfer and proton translocating activities in the presence of the mobile potassium ionophore, valinomycin, and the channel-forming ionophore, gramicidin, in order to determine if the ionophores modify the functional properties of the enzyme. In agreement with previous work, incubation of COV with valinomycin resulted in a perturbation of the absorbance spectrum of oxidized heme aa 3 in the Soret region (430 nm); gramicidin had no effect on the heme aa 3 absorbance spectrum. Different concentrations of the two ionophores were required for maximum respiratory control ratios in COV; 40- to 70-fold higher concentrations of valinomycin were required to completely uncouple electron transfer activity when compared to gramidicin. The proton translocating activity of COV incubated with each ionophore gave a similar apparent proton translocated to electron transferred stoichiometry ( H+ e\u2212 ratio) of 0.66 \u00b1 0.10. However, COV treated with low concentrations of gramicidin (0.14 mg/g phospholipid) exhibited 1.5- to 2.5-fold higher rates of alkalinization of the extravesicular media after the initial proton translocation reaction than did COV treated with valinomycin, suggesting that gramicidin allows more rapid equilibration of protons across the phospholipid bilayer during the proton translocation assay. Moreover, at higher concentrations of gramicidin (1.4 mg/g phospholipid), the observed H+ e\u2212 ratio decreased to 0.280 \u00b1 0.020, while the rate of alkalinization increased an additional 2-fold, suggesting that at higher concentrations, gramicidin acts as a proton ionophore. These results support the hypothesis that cytochrome c oxidase is a redox-linked proton pump that operates at similar efficiencies in the presence of either ionophore. Low concentrations of gramicidin dissipate the membrane potential in COV most likely by a channel mechanism that is different from the carrier mechanism of valinomycin, yet does not make the phospholipid bilayer freely permeable to protons.",
+    "ground_truth_entities": [
+      "disease",
+      "pathogen",
+      "virus",
+      "bacteria",
+      "organ/system",
+      "immune_response",
+      "symptom",
+      "drug_or_treatment",
+      "chemical_substance",
+      "methodology",
+      "host_factor",
+      "population",
+      "etiology",
+      "location",
+      "agent"
+    ],
+    "ground_truth_key_value": {
+      "disease": [],
+      "pathogen": [],
+      "virus": [],
+      "bacteria": [],
+      "organ/system": [
+        [
+          "1",
+          "heart"
+        ]
+      ],
+      "immune_response": [],
+      "symptom": [],
+      "drug_or_treatment": [],
+      "chemical_substance": [],
+      "methodology": [],
+      "host_factor": [],
+      "population": [],
+      "etiology": [],
+      "location": [
+        [
+          "1",
+          "phospholipid bilayer"
+        ]
+      ],
+      "agent": []
+    },
+    "domain": "biomedical",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Bovine renal brush-border membrane vesicle aminopeptidase N at various stages of purity was treated with two bifunctional cross-linking agents. A pattern of emergence of higher molecular weight forms was observed. By using a cleavable cross-linker, aminopeptidase N was shown to cross-link both to itself and to its breakdown products as well as to dipeptidyl peptidase IV. Using this technique it was possible to identify three of the breakdown products as 45 kDa, 66 kDa and 95 kDa peptides. N-terminal amino acid sequence analysis was used to define the precise cleavage points for the bovine renal aminopeptidase N breakdown products. The short amino acid sequences obtained show strong sequence similarity with the human intestinal and rat kidney aminopeptidase N.",
+    "ground_truth_entities": [
+      "disease",
+      "pathogen",
+      "virus",
+      "bacteria",
+      "organ/system",
+      "immune_response",
+      "symptom",
+      "drug_or_treatment",
+      "chemical_substance",
+      "methodology",
+      "host_factor",
+      "population",
+      "etiology",
+      "location",
+      "agent"
+    ],
+    "ground_truth_key_value": {
+      "disease": [],
+      "pathogen": [],
+      "virus": [],
+      "bacteria": [],
+      "organ/system": [
+        [
+          "1",
+          "intestinal"
+        ],
+        [
+          "2",
+          "renal"
+        ]
+      ],
+      "immune_response": [],
+      "symptom": [],
+      "drug_or_treatment": [],
+      "chemical_substance": [],
+      "methodology": [
+        [
+          "1",
+          "sequence analysis"
+        ]
+      ],
+      "host_factor": [],
+      "population": [],
+      "etiology": [],
+      "location": [
+        [
+          "1",
+          "renal brush-border"
+        ]
+      ],
+      "agent": []
+    },
+    "domain": "biomedical",
+    "difficulty": "hard"
+  }
+]
